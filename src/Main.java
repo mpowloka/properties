@@ -11,7 +11,7 @@ public class Main {
 
         MyFileReader reader = new MyFileReader();
 
-        List<String> fileLines = reader.readFileLinesList("C:\\Users\\mpowloka\\Workspace\\properties\\data.properties");
+        List<String> fileLines = reader.readFileLinesList("data.properties");
 
         System.out.println(getPropertiesList(fileLines));
 
